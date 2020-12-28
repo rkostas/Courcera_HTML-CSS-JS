@@ -1,0 +1,173 @@
+body {
+    font-size: 16px;
+    background-color: #b3b3b3;
+    font-family: sans-serif;
+}
+
+/** HEADER **/
+#header-nav
+{
+  background-color: #e0c187;
+  border-radius: 0;
+  border: 0;
+}
+
+.navbar-brand {
+   padding-top: 25px;
+   margin-top: 10px;
+}
+.navbar-brand h1 {
+    /* Restaurant name */
+    font-family: fantasy;
+    color: #d4502f;
+    font-size: 1.5em;
+    text-transform: uppercase;
+    font-weight: bold;
+    text-shadow: 1px 1px 1px #222;
+    margin-top: 0;
+    margin-bottom: 0px;
+    line-height: .75;
+}
+
+.navbar-brand a:hover,
+.navbar-brand a:focus {
+    text-decoration: none;
+}
+
+.navbar-brand p {
+    /* Kosher cert */
+    color: #000;
+    text-transform: uppercase;
+    font-size: .7em;
+    margin-top: 15px;
+}
+
+.navbar-brand p span {
+    /* Star-K */
+    vertical-align: middle;
+}
+
+#nav-list
+{
+  background-color: white;
+  border: 1px solid black;
+}
+
+#nav-list a {
+    color: #d9a0a1;
+    text-align: center;
+}
+
+#nav-list a:hover {
+    background: #b83b32;
+}
+
+.collapse
+{
+  color: white;
+  font-size: 25px;
+  font-family: fantasy;
+}
+
+li{
+  box-sizing: border-box;
+  width: 100%;
+}
+
+li .a
+{
+  color: white;
+  text-decoration: none;
+  text-shadow: 1px 1px 1px #222;
+}
+
+.main-title
+{
+  font-family: arial;
+  color: #525050;
+}
+
+.content
+{
+  background-color: #DCDCDC;
+  font-size: 16px;
+  font-family: arial;
+  border: 0px;
+  text-align: center;
+  padding: 20px;
+  height: auto;
+  width: auto;
+  margin: 30px;
+  text-decoration: none;
+  overflow: hidden;
+}
+
+.navbar-nav{
+  font-size: 25px;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+}
+
+.nav-item
+{
+  padding: 0;
+  margin: 0;
+  width: 100%;
+  background-color: #c46556;
+  border-bottom: 1px solid white;
+  color: white;
+  display: block;
+}
+
+a.nav-link
+{
+  color:white;
+  text-align: center;
+  text-decoration: none;
+  text-shadow: 1px 1px 1px #222;
+}
+
+.nav-item:hover
+{
+  background-color: black;
+  color:black;
+  opacity: 0.5;
+}
+
+.navbar-toggle
+{
+  position: relative;
+  float: right;
+  background-color: transparent;
+  background-image: none;
+  border: 2px solid black;
+  margin-right: 25px;
+  height: 25px;
+  width: 40px;
+  border-radius: 5px;
+  text-shadow: 1px 1px 1px #222;
+}
+
+.navbar-header button.navbar-toggle {
+  clear: both;
+  margin-top: -30px;
+}
+
+@media (min-width: 768px)
+{  .navbar-toggler
+  {visibility: hidden;
+  }
+
+  #header-nav
+  {height: 100px;
+  }
+#nav-list
+  {visibility: hidden;
+  }
+}
+
+button.navbar-toggler
+{border: 2px solid white;
+  margin-right: 20px;
+}
